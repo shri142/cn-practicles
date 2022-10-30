@@ -1,0 +1,53 @@
+1)for ip 
+windows: ipconfig/all
+ip addr show
+linux: ifconfig
+mac
+
+2)route
+traceroute www.dbit.in
+tracepath www.dbit.in
+tracert www.dbit.in  (for linux)
+
+3)ping
+ping ip
+
+pig with time interval 
+ping -i 0.5 google.com
+
+ping with time limit
+ping -w 25 google.com
+
+ping with timestamp
+ping -D google.com
+
+ping with size
+ping -s 1000 google.com
+
+ping with count
+ping -c 2 google.com
+
+audible ping
+ping -a google.com
+
+
+4)netstat
+
+netstat -a (Displays all active TCP connections and the TCP and UDP 
+             ports on which the computer is listening.)
+netstat -b (displays exuecutable listening ports)
+netstat -e  (Displays Ethernet statistics,)
+netstat -s (display statiscs by protocol)
+netstat -o ( display tcp connection with PID)
+
+
+5)
+sudo tcpdump
+nslookup google.com
+arp -a
+dig google.com
+
+
+
+
+
